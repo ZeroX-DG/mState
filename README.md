@@ -22,16 +22,16 @@ As you can see the global state can be modified using action called from the com
 
 ## Example
 
-The first step to do is to initialize a state and some actions and register them with mState
+The first step to do is to initialize a state and some actions.
 
 **CounterStore.js**
 
 ```js
 import { makeState, registerState } from "mState";
 
-const state = makeState({
+const state = {
   counter: 0
-});
+};
 
 const actions = {
   INCREASE(state, amount) {
@@ -40,15 +40,15 @@ const actions = {
 };
 
 export default () => {
-  registerState("CounterStore", state).withActions(actions);
+  makeState("CounterStore", state).withActions(actions);
 };
 ```
 
 **App.js**
 
 ```js
-import registerCounterStore from "./CounterStore";
-registerCounterStore();
+import makeCounterStore from "./CounterStore";
+makeCounterStore();
 // mounting to #root/#app element...
 ```
 
