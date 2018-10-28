@@ -5,11 +5,15 @@ const babel = require("rollup-plugin-babel");
 
 export default [
   {
+    external: ["mithril"],
     input: "lib/index.js",
     output: {
       name: "mState",
       file: "dist/mState.umd.js",
-      format: "umd"
+      format: "umd",
+      globals: {
+        mithril: "m"
+      }
     },
     plugins: [
       babel({
