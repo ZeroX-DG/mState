@@ -2,6 +2,12 @@
 
 _A dead simple state management library for Mithril.js_
 
+## Install
+
+```
+npm i @zerox-dg/mstate
+```
+
 ## Why mState?
 
 mState is a dead simple solution for state management for Mithril.js. While the core is really simple `< 100 lines`, mState is very flexible and it's actually only `~1kb minified`.
