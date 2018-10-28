@@ -11,6 +11,11 @@
   },
   "author": "Hung Nguyen <viethungax@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZeroX-DG/mState.git"
+  },
+  "homepage": "https://github.com/ZeroX-DG/mState",
   "peerDependencies": {
     "mithril": "^1.1.6"
   },
