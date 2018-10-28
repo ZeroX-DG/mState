@@ -78,3 +78,11 @@ const myComponent = () => {
 };
 export default inject(myComponent, ["CounterStore"]);
 ```
+
+## Author
+
+- [Hung Nguyen](https://github.com/ZeroX-DG) ([twitter](https://twitter.com/ZeroX_Hung))
+
+## License
+
+[MIT](LICENSE.md)
