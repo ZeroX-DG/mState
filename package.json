@@ -1,5 +1,5 @@
 {
-  "name": "mstate",
+  "name": "@zerox-dg/mstate",
   "version": "1.0.0",
   "description": "A simple state management library for mithril.js",
   "main": "dist/mState.umd.js",
