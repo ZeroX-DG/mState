@@ -30,8 +30,13 @@ Call an action registered with a state
 Inject states to a component
 
 - component <[Mithril component]> Mithril component to inject
-- stateNames <[String[]]> Names of created states
+- stateNames <[Array]<[String]>> Names of created states
 
 **Return**
 
 - component <[Mithril component]> A component to render
+
+[string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+[object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+[array]: https://developer.mozilla.org/en-US/docs/Glossary/array
+[mithril component]: https://mithril.js.org/#components
